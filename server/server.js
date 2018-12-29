@@ -58,4 +58,4 @@ io.on('connection', (socket) => {
     })
 })
 
-server.listen(port, ()=> console.log("server is up"))
+server.listen(port, ()=> console.log("Server is up on port : " + port))
